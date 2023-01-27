@@ -69,7 +69,7 @@ def ResNet18():
     return ResNet(ResidualBlock)
 
 #set hyperparameter
-EPOCH = 10
+EPOCH = 100
 pre_epoch = 0
 BATCH_SIZE = 128
 LR = 0.01
