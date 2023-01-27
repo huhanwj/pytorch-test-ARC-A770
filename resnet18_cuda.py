@@ -122,6 +122,7 @@ for epoch in range(pre_epoch, EPOCH):
         
         #forward & backward
         outputs = net(inputs)
+        loss = criterion(outputs, labels)
         loss.backward()
         optimizer.step()
         
